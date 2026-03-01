@@ -391,12 +391,8 @@
       <div class="card-details">
         <h4>📦 Des contraintes de stockage réelles</h4>
         <p>La collecte nécessite des cheveux secs, propres, attachés et conditionnés. Cela implique un tri régulier, un espace dédié et des conditions d'hygiène adaptées. Or, la majorité des salons disposent d'espaces restreints, optimisés pour l'accueil client. Toute contrainte supplémentaire devient un frein opérationnel.</p>
-        <h4>📍 Un manque de points de collecte locaux</h4>
-        <p>Dans de nombreuses régions, les salons doivent expédier eux-mêmes les cheveux, assumer les frais postaux et gérer le conditionnement — un coût non négligeable, notamment pour les petites structures indépendantes.</p>
-        <ul>
-          <li>Moins de 5 % des salons français ont accès à un système de collecte organisé</li>
-          <li>La société Capillum propose un service clé en main entre 55 et 149 € HT/an</li>
-          <li>Ce coût reste un frein pour les salons indépendants en contexte d'inflation des charges</li>
+        <h4>💰 Un budget </h4>
+        <p>Les solutions de collecte organisées reposent souvent sur un abonnement payant. Par exemple, la société Capillum propose un service clé en main de collecte et de valorisation des cheveux, dont le coût est compris entre 55 et 149 € HT par an, entièrement à la charge du salon. Pour les coiffeurs indépendants, cette dépense supplémentaire peut constituer un frein à l’engagement.
           
         </ul>
       </div>
