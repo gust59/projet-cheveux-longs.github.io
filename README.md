@@ -106,25 +106,22 @@
   .card-details li { font-size: 0.85rem; line-height: 1.6; opacity: 0.75; padding-left: 1.2rem; position: relative; }
   .card-details li::before { content: '→'; position: absolute; left: 0; color: var(--gold); }
 
-  #contact { background: linear-gradient(160deg, #1c2e1e 70%, #2d5a3d); padding: 8rem 5rem; display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: start; }
+  /* CONTACT — sans formulaire */
+  #contact {
+    background: linear-gradient(160deg, #1c2e1e 70%, #2d5a3d);
+    padding: 8rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+  }
   .contact-left h2 { font-family: 'Playfair Display', serif; font-size: clamp(2.5rem, 4vw, 4rem); font-weight: 700; color: var(--cream); line-height: 1.1; margin-bottom: 1.5rem; }
-  .contact-left p { color: rgba(245,240,232,0.6); font-size: 1rem; line-height: 1.8; margin-bottom: 2rem; }
-  .contact-info { display: flex; align-items: center; gap: 1rem; color: var(--accent); font-size: 0.9rem; margin-top: 2rem; }
-  .contact-info::before { content: '✉'; font-size: 1.2rem; }
-  .contact-info a { color: var(--accent); text-decoration: none; }
+  .contact-left p { color: rgba(245,240,232,0.6); font-size: 1rem; line-height: 1.8; max-width: 560px; }
+  .contact-info { display: inline-flex; align-items: center; gap: 1rem; color: var(--accent); font-size: 1rem; margin-top: 1rem; }
+  .contact-info::before { content: '✉'; font-size: 1.3rem; }
+  .contact-info a { color: var(--accent); text-decoration: none; font-weight: 500; }
   .contact-info a:hover { text-decoration: underline; }
-
-  form { display: flex; flex-direction: column; gap: 1.2rem; }
-  .form-group { display: flex; flex-direction: column; gap: 0.4rem; }
-  label { font-size: 0.7rem; font-weight: 500; letter-spacing: 0.15em; text-transform: uppercase; color: rgba(245,240,232,0.5); }
-  input, textarea { background: rgba(245,240,232,0.07); border: 1px solid rgba(245,240,232,0.15); color: var(--cream); padding: 0.9rem 1.2rem; font-family: 'DM Sans', sans-serif; font-size: 0.95rem; outline: none; transition: border-color 0.2s; }
-  input:focus, textarea:focus { border-color: var(--accent); }
-  input::placeholder, textarea::placeholder { color: rgba(245,240,232,0.25); }
-  textarea { min-height: 130px; resize: vertical; }
-  .btn-submit { background: var(--gold); color: var(--cream); border: none; padding: 1.1rem; font-family: 'DM Sans', sans-serif; font-size: 0.82rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; cursor: pointer; transition: background 0.25s, transform 0.2s; margin-top: 0.5rem; }
-  .btn-submit:hover { background: var(--accent); transform: translateY(-2px); }
-  .btn-submit:disabled { opacity: 0.6; cursor: not-allowed; transform: none; }
-  .form-success { display: none; background: rgba(106,171,126,0.15); border: 1px solid var(--accent); color: var(--cream); padding: 1.2rem 1.5rem; font-size: 0.9rem; line-height: 1.6; margin-top: 1rem; text-align: center; }
 
   footer { background: #111a12; padding: 3rem 5rem; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid rgba(74,124,89,0.2); }
   .footer-logo { font-family: 'Playfair Display', serif; font-weight: 900; font-size: 1rem; color: var(--cream); letter-spacing: 0.05em; text-transform: uppercase; }
@@ -156,7 +153,6 @@
     #pourquoi-meme { grid-template-columns: 1fr; }
     .section-label { writing-mode: horizontal-tb; }
     .cards-grid { grid-template-columns: 1fr; }
-    #contact { grid-template-columns: 1fr; gap: 3rem; }
     .futur-header { flex-direction: column; gap: 1.5rem; }
     .stats-grid { grid-template-columns: 1fr; }
     footer { flex-direction: column; gap: 1rem; text-align: center; }
@@ -242,14 +238,14 @@
       <div class="card-number">01</div>
       <div class="card-icon">🎗️</div>
       <h3>Un enjeu humain — les perruques</h3>
-      <p>lutter contre les effets visibles de la maladie.</p>
+      <p>Lutter contre les effets visibles de la maladie.</p>
       <span class="card-tag">Solidarité</span>
       <div class="card-toggle">En savoir plus <span class="arrow">▾</span></div>
       <div class="card-details">
         <p>En France, environ 55 000 femmes perdent leurs cheveux chaque année à cause de chimiothérapies ou de maladies comme l'alopécie. Une perruque en cheveux naturels coûte entre 900 et 1 500 €.</p>
         <ul>
           <li>Les cheveux doivent mesurer au minimum 25 à 30 cm pour être utilisables</li>
-          <li>De nombreuses associations, comme Solid’Hair (+25 cm) ou Fake Hair Don’t Care (+10 cm), collectent les cheveux coupés pour les transformer en perruques destinées aux malades.
+          <li>De nombreuses associations, comme Solid'Hair (+25 cm) ou Fake Hair Don't Care (+10 cm), collectent les cheveux coupés pour les transformer en perruques destinées aux malades</li>
         </ul>
       </div>
     </div>
@@ -262,8 +258,7 @@
       <span class="card-tag">Environnement</span>
       <div class="card-toggle">En savoir plus <span class="arrow">▾</span></div>
       <div class="card-details">
-        <p>Les cheveux ont une structure kératinée microporeuse qui leur permet d’absorber entre 3 et 9 fois leur poids en hydrocarbures.
-Cela les rend particulièrement efficaces pour lutter contre les marées noires, les fuites industrielles ou la pollution des eaux urbaines. Cette technique a déjà été utilisée lors de marées noires aux États-Unis et en Europe.</p>
+        <p>Les cheveux ont une structure kératinée microporeuse qui leur permet d'absorber entre 3 et 9 fois leur poids en hydrocarbures. Cela les rend particulièrement efficaces pour lutter contre les marées noires, les fuites industrielles ou la pollution des eaux urbaines.</p>
         <ul>
           <li>Utilisés en boudins, ils forment des barrières anti-pollution dans les cours d'eau</li>
           <li>L'association <strong>Matter of Trust</strong> utilise cette technique depuis les années 2000</li>
@@ -298,14 +293,13 @@ Cela les rend particulièrement efficaces pour lutter contre les marées noires,
 
 <section id="contact">
   <div class="contact-left">
-    <div class="hero-tag" style="color:var(--accent);">Contactez-nous</div>
+    <div class="hero-tag" style="color:var(--accent); justify-content:center;">Contactez-nous</div>
     <h2>Rejoignez notre aventure capillaire</h2>
     <p>Vous êtes coiffeur, association, chercheur ou simplement curieux de participer ? Nous serions ravis d'échanger avec vous.</p>
     <div class="contact-info">
       <a href="mailto:projetcheveuxlongs91@gmail.com">projetcheveuxlongs91@gmail.com</a>
     </div>
   </div>
- 
 </section>
 
 <footer>
@@ -316,33 +310,6 @@ Cela les rend particulièrement efficaces pour lutter contre les marées noires,
 <script>
   function toggleCard(card) {
     card.classList.toggle('open');
-  }
-
-  async function handleSubmit(e) {
-    e.preventDefault();
-    const form = e.target;
-    const btn = form.querySelector('.btn-submit');
-    const success = document.getElementById('formSuccess');
-    btn.textContent = 'Envoi en cours…';
-    btn.disabled = true;
-    try {
-      const response = await fetch(form.action, {
-        method: 'POST',
-        body: new FormData(form),
-        headers: { 'Accept': 'application/json' }
-      });
-      if (response.ok) {
-        btn.style.display = 'none';
-        success.style.display = 'block';
-        form.reset();
-      } else {
-        btn.textContent = 'Erreur — réessayez';
-        btn.disabled = false;
-      }
-    } catch {
-      btn.textContent = 'Erreur — réessayez';
-      btn.disabled = false;
-    }
   }
 
   const observer = new IntersectionObserver((entries) => {
