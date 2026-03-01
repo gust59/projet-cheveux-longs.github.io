@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Projet Solid'Hair — Valorisation Capillaire</title>
+<title>Projet Cheveux Longs — Valorisation Capillaire</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231c2e1e'/%3E%3Cpath d='M10 4 C8 10, 14 14, 11 20 C9 25, 13 28, 12 31' stroke='%236aab7e' stroke-width='2.5' stroke-linecap='round' fill='none'/%3E%3Cpath d='M16 3 C15 9, 19 13, 17 19 C15 24, 18 27, 17 31' stroke='%23f4f0e6' stroke-width='2' stroke-linecap='round' fill='none'/%3E%3Cpath d='M22 5 C21 11, 24 15, 22 21 C21 26, 23 28, 22 31' stroke='%234a7c59' stroke-width='2' stroke-linecap='round' fill='none'/%3E%3C/svg%3E">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
   :root {
