@@ -427,12 +427,6 @@
       <!-- CE QU'ON PRÉPARE -->
       <div class="histoire-col">
         <h3>🚀 Ce qu'on prépare</h3>
-        <div class="projets-list">
-          <div class="projet-item">
-            <div class="projet-label">À venir</div>
-            <div class="projet-title">Développement d'un réseau de collecte</div>
-            <div class="projet-desc">Identifier et fédérer des salons de coiffure partenaires prêts à s'engager dans une démarche de collecte régulière, gratuite et sans contrainte.</div>
-          </div>
           <div class="projet-item">
             <div class="projet-label">À venir</div>
             <div class="projet-title">Partenariats avec des associations</div>
