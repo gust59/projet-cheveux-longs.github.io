@@ -329,6 +329,7 @@
   </div>
 </section>
 
+
 <!-- LES ENJEUX -->
 <section id="le-futur-des-cheveux">
   <div class="futur-header">
@@ -350,7 +351,7 @@
         <p>D'autres formes d'alopécie surviennent également pour des raisons médicales : maladies auto-immunes (alopécie areata), troubles hormonaux, pathologies dermatologiques ou affections génétiques.</p>
         <p>La perte de cheveux dépasse largement la simple dimension esthétique. Les cheveux participent à l'identité personnelle, à l'image de soi et à l'inscription sociale. Leur chute brutale constitue une épreuve psychologique majeure : elle rend la maladie visible, peut exposer à des regards ou une stigmatisation implicite. L'accès à des prothèses capillaires de qualité contribue à alléger cette charge morale et à maintenir la dignité des patients.</p>
         <ul>
-     
+        </ul>
       </div>
     </div>
 
@@ -396,7 +397,7 @@
           <li>Moins de 5 % des salons français ont accès à un système de collecte organisé</li>
           <li>La société Capillum propose un service clé en main entre 55 et 149 € HT/an</li>
           <li>Ce coût reste un frein pour les salons indépendants en contexte d'inflation des charges</li>
-          <li>Notre objectif : une collecte gratuite, mensuelle, sans contrainte pour le coiffeur</li>
+          
         </ul>
       </div>
     </div>
