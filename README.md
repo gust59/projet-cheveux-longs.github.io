@@ -349,6 +349,8 @@
         <p>En France, environ 372 500 personnes ont reçu une chimiothérapie en 2022. En moyenne, 65 % d'entre elles présentent une alopécie induite par ce traitement, soit environ <strong>240 000 patients par an</strong> souffrant d'une chute de cheveux liée à un traitement anticancéreux.</p>
         <p>D'autres formes d'alopécie surviennent également pour des raisons médicales : maladies auto-immunes (alopécie areata), troubles hormonaux, pathologies dermatologiques ou affections génétiques.</p>
         <p>La perte de cheveux dépasse largement la simple dimension esthétique. Les cheveux participent à l'identité personnelle, à l'image de soi et à l'inscription sociale. Leur chute brutale constitue une épreuve psychologique majeure : elle rend la maladie visible, peut exposer à des regards ou une stigmatisation implicite. L'accès à des prothèses capillaires de qualité contribue à alléger cette charge morale et à maintenir la dignité des patients.</p>
+        <ul>
+     
       </div>
     </div>
 
@@ -366,6 +368,7 @@
         <ul>
           <li>Lutte contre les marées noires et rejets industriels</li>
           <li>Traitement des pollutions urbaines des eaux pluviales</li>
+
         </ul>
         <h4>🏠 Isolation thermique et phonique</h4>
         <p>Compactés en panneaux fibreux, les cheveux offrent des propriétés thermiques naturelles, une excellente absorption acoustique et un caractère biodégradable — alternative écologique à la laine de roche ou aux mousses synthétiques.</p>
@@ -392,7 +395,8 @@
         <ul>
           <li>Moins de 5 % des salons français ont accès à un système de collecte organisé</li>
           <li>La société Capillum propose un service clé en main entre 55 et 149 € HT/an</li>
-          <li>Ce coût reste un frein pour les salons indépendants</li>
+          <li>Ce coût reste un frein pour les salons indépendants en contexte d'inflation des charges</li>
+          <li>Notre objectif : une collecte gratuite, mensuelle, sans contrainte pour le coiffeur</li>
         </ul>
       </div>
     </div>
@@ -419,6 +423,7 @@
               <div class="timeline-date">27 septembre 2025</div>
               <div class="timeline-title">Événement collecte de cheveux — Lumen, Paris-Saclay</div>
               <div class="timeline-desc">Notre premier événement de collecte capillaire, organisé au Lumen sur le campus de Paris-Saclay. Une première étape concrète pour sensibiliser et agir.</div>
+            
             </div>
           </div>
         </div>
@@ -427,6 +432,9 @@
       <!-- CE QU'ON PRÉPARE -->
       <div class="histoire-col">
         <h3>🚀 Ce qu'on prépare</h3>
+        <div class="projets-list">
+          
+          </div>
           <div class="projet-item">
             <div class="projet-label">À venir</div>
             <div class="projet-title">Partenariats avec des associations</div>
