@@ -342,18 +342,13 @@
       <div class="card-number">01</div>
       <div class="card-icon">🎗️</div>
       <h3>Un enjeu humain — les perruques</h3>
-      <p>Lutter contre les effets visibles de la maladie et préserver la dignité des patients.</p>
+      <p>Lutter contre les effets visibles de la maladie</p>
       <span class="card-tag">Solidarité</span>
       <div class="card-toggle">En savoir plus <span class="arrow">▾</span></div>
       <div class="card-details">
         <p>En France, environ 372 500 personnes ont reçu une chimiothérapie en 2022. En moyenne, 65 % d'entre elles présentent une alopécie induite par ce traitement, soit environ <strong>240 000 patients par an</strong> souffrant d'une chute de cheveux liée à un traitement anticancéreux.</p>
         <p>D'autres formes d'alopécie surviennent également pour des raisons médicales : maladies auto-immunes (alopécie areata), troubles hormonaux, pathologies dermatologiques ou affections génétiques.</p>
         <p>La perte de cheveux dépasse largement la simple dimension esthétique. Les cheveux participent à l'identité personnelle, à l'image de soi et à l'inscription sociale. Leur chute brutale constitue une épreuve psychologique majeure : elle rend la maladie visible, peut exposer à des regards ou une stigmatisation implicite. L'accès à des prothèses capillaires de qualité contribue à alléger cette charge morale et à maintenir la dignité des patients.</p>
-        <ul>
-          <li>Les cheveux doivent mesurer au minimum 25 à 30 cm pour être utilisables</li>
-          <li>Solid'Hair collecte les dons à partir de 25 cm, Fake Hair Don't Care à partir de 10 cm</li>
-          <li>Un seul don peut permettre de confectionner une perruque entière</li>
-        </ul>
       </div>
     </div>
 
@@ -371,7 +366,6 @@
         <ul>
           <li>Lutte contre les marées noires et rejets industriels</li>
           <li>Traitement des pollutions urbaines des eaux pluviales</li>
-          <li>L'association Matter of Trust utilise cette technique depuis les années 2000</li>
         </ul>
         <h4>🏠 Isolation thermique et phonique</h4>
         <p>Compactés en panneaux fibreux, les cheveux offrent des propriétés thermiques naturelles, une excellente absorption acoustique et un caractère biodégradable — alternative écologique à la laine de roche ou aux mousses synthétiques.</p>
@@ -398,8 +392,7 @@
         <ul>
           <li>Moins de 5 % des salons français ont accès à un système de collecte organisé</li>
           <li>La société Capillum propose un service clé en main entre 55 et 149 € HT/an</li>
-          <li>Ce coût reste un frein pour les salons indépendants en contexte d'inflation des charges</li>
-          <li>Notre objectif : une collecte gratuite, mensuelle, sans contrainte pour le coiffeur</li>
+          <li>Ce coût reste un frein pour les salons indépendants</li>
         </ul>
       </div>
     </div>
@@ -426,22 +419,6 @@
               <div class="timeline-date">27 septembre 2025</div>
               <div class="timeline-title">Événement collecte de cheveux — Lumen, Paris-Saclay</div>
               <div class="timeline-desc">Notre premier événement de collecte capillaire, organisé au Lumen sur le campus de Paris-Saclay. Une première étape concrète pour sensibiliser et agir.</div>
-            </div>
-          </div>
-          <div class="timeline-item">
-            <div class="timeline-dot">📋</div>
-            <div class="timeline-content">
-              <div class="timeline-date">2025</div>
-              <div class="timeline-title">Lancement des sondages</div>
-              <div class="timeline-desc">Mise en ligne de deux sondages — grand public et coiffeurs — pour cartographier les besoins et comprendre les freins à la collecte.</div>
-            </div>
-          </div>
-          <div class="timeline-item">
-            <div class="timeline-dot">🌐</div>
-            <div class="timeline-content">
-              <div class="timeline-date">2025</div>
-              <div class="timeline-title">Création du site et du compte Instagram</div>
-              <div class="timeline-desc">Lancement de notre présence en ligne pour faire connaître le projet et fédérer une communauté autour de la valorisation capillaire.</div>
             </div>
           </div>
         </div>
